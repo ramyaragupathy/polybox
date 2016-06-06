@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^2.2.3"
+    "async": "^2.0.0-rc.5",
+    "query-overpass": "^1.1.0",
+    "yargs": "^4.7.1"
   }
 }
