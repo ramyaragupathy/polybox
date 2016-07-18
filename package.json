@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.0-rc.5",
+    "async": "^2.0.0-rc.6",
+    "minimist": "^1.2.0",
     "query-overpass": "^1.1.0",
     "yargs": "^4.7.1"
   }
