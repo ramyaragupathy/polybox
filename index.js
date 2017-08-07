@@ -12,11 +12,11 @@ var cities = require('./'+argv.json);
 
  		{
  			
- 		for(j=0; j< cities.features[i].geometry.coordinates[0].length; j++)
+ 		for(j=0; j< cities.features[i].geometry.coordinates[0][0].length; j++)
  		{
  			
- 			bbox = bbox  + cities.features[i].geometry.coordinates[0][j][1] + " " +
- 			       cities.features[i].geometry.coordinates[0][j][0]+" ";
+ 			bbox = bbox  + cities.features[i].geometry.coordinates[0][0][j][1] + " " +
+ 			       cities.features[i].geometry.coordinates[0][0][j][0]+" ";
  			
  
  
